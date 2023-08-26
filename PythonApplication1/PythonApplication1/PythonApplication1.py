@@ -12,7 +12,7 @@ def getInfo(call):
     return r.json()
 
 name = "pooradam"
-API_KEY = "6d10adbe-4317-4dd0-85f5-40fc0f9adef9"
+API_KEY = "6"
 name_link = f"https://api.hypixel.net/player?key={API_KEY}&name={name}"
 data = getInfo(name_link)
 file_path = 'C:\\Users\\averym\\AppData\\Roaming\\.minecraft\\logs\\latest.log'
